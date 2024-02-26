@@ -74,9 +74,31 @@ const users = [
         email: "user@gmail.com"
     },
 ]
-console.log(fundingUser);
-console.log(Object.keys(fundingUser));
-console.log(Object.values(fundingUser));
-console.log(Object.entries(fundingUser));
+// console.log(fundingUser);
+// console.log(Object.keys(fundingUser));
+// console.log(Object.values(fundingUser));
+// console.log(Object.entries(fundingUser));
 
-console.log(fundingUser.hasOwnProperty("isLoggedIn"));
+// console.log(fundingUser.hasOwnProperty("isLoggedIn"));
+
+const course ={
+    coursename: "javascript",
+    price: "4567",
+    coursInstructor: "manish"
+}
+// console.log(course.coursInstructor);
+const {coursInstructor: instructor} = course;
+console.log(instructor);
+
+//json api
+// {
+//    " name": "manish",
+//     "coursename": "javascript api",
+//     "price": "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
